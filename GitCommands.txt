@@ -14,6 +14,10 @@ git commit -m "[commit message]"
 #Remove a file (or folder)
 git rm -r [file-name.txt]	
 
+git config --global user.email "gokul4f@gmail.com"
+
+git config --global user.name "gokul"
+
 ###################Branching#############################
 #List branches (the asterisk denotes the current branch)
 git branch	
