@@ -14,7 +14,7 @@ git commit -m "[commit message]"
 #Remove a file (or folder)
 git rm -r [file-name.txt]	
 
-#Branching
+###################Branching#############################
 #List branches (the asterisk denotes the current branch)
 git branch	
 
@@ -53,3 +53,29 @@ git merge [branch name]
 
 #Merge a branch into a target branch
 git merge [source branch] [target branch]	
+
+
+
+############remote repository#############
+# To add remote repository
+ git remote add origin https://github.com/gokul4f/mynewrepo.git
+
+  git remote -v
+
+#Push a branch to your remote repository
+git push origin [branch name]	
+
+#Push changes to remote repository (and remember the branch)
+git push -u origin [branch name]	
+
+#Push changes to remote repository (remembered branch)
+git push	
+
+#Delete a remote branch
+git push origin --delete [branch name]	
+
+#Update local repository to the newest commit
+git pull	
+
+#Pull changes from remote repository
+git pull origin [branch name]	
